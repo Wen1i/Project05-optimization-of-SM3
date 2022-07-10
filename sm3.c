@@ -1,12 +1,18 @@
 #include "sm3.h"
 #include <string.h>
 #include <stdint.h>
-#include<stdio.h>
-
+#include <stdio.h>
+#include <emmintrin.h>
+#include <smmintrin.h>
+/*
 #define u32_2_u8(dwValue, pbBuffer) { (pbBuffer)[3] = (u8)(dwValue), \
-											(pbBuffer)[2] = (u8)((dwValue)>>8); \
-											(pbBuffer)[1] = (u8)((dwValue)>>16); \
-											(pbBuffer)[0] = (u8)((dwValue)>>24); }
+	                              (pbBuffer)[2] = (u8)((dwValue)>>8); \
+				      (pbBuffer)[1] = (u8)((dwValue)>>16); \
+				      (pbBuffer)[0] = (u8)((dwValue)>>24); }
+*/
+#define u32_2_u8(dwValue, pbBuffer) 
+{
+	
 
 #define T0 (0x79cc4519)
 #define T1 (0x7a879d8a)
