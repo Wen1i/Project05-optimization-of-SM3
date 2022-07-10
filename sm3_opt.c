@@ -11,7 +11,7 @@
 #include <chrono>
 #include <time.h>
 #include <stdlib.h>
-#include "sm3.h"
+#include "sm3_opt.h"
 
 using namespace std;
 
